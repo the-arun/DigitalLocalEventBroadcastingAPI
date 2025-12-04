@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="45" passed="45" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-01T17:48:13 IST" name="Surefire suite" finished-at="2025-12-01T17:48:28 IST" duration-ms="15426">
+    <groups>
+    </groups>
+    <test started-at="2025-12-01T17:48:13 IST" name="Surefire test" finished-at="2025-12-01T17:48:28 IST" duration-ms="15426">
+      <class name="com.example.demo.ApiIntegrationTests">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:13 IST" name="springTestContextBeforeTestClass" finished-at="2025-12-01T17:48:13 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:13 IST" name="springTestContextPrepareTestInstance" finished-at="2025-12-01T17:48:25 IST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="12339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:25 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test01_controllersFolderExists()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test01_controllersFolderExists()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="test01_controllersFolderExists" finished-at="2025-12-01T17:48:26 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_controllersFolderExists -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test01_controllersFolderExists()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test02_entitiesFolderExists()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test02_entitiesFolderExists()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="test02_entitiesFolderExists" finished-at="2025-12-01T17:48:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_entitiesFolderExists -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test02_entitiesFolderExists()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test03_repositoriesFolderExists()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test03_repositoriesFolderExists()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="test03_repositoriesFolderExists" finished-at="2025-12-01T17:48:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_repositoriesFolderExists -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test03_repositoriesFolderExists()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test04_eventControllerFileExists()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test04_eventControllerFileExists()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="test04_eventControllerFileExists" finished-at="2025-12-01T17:48:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_eventControllerFileExists -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test04_eventControllerFileExists()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test05_authControllerFileExists()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test05_authControllerFileExists()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="test05_authControllerFileExists" finished-at="2025-12-01T17:48:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test05_authControllerFileExists -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test05_authControllerFileExists()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test06_contextLoads()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test06_contextLoads()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="test06_contextLoads" finished-at="2025-12-01T17:48:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_contextLoads -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test06_contextLoads()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test07_baseUrlIsNotEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test07_baseUrlIsNotEmpty()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="test07_baseUrlIsNotEmpty" finished-at="2025-12-01T17:48:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test07_baseUrlIsNotEmpty -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test07_baseUrlIsNotEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test08_swaggerUiPathString()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test08_swaggerUiPathString()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="test08_swaggerUiPathString" finished-at="2025-12-01T17:48:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test08_swaggerUiPathString -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test08_swaggerUiPathString()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test09_getPublicEvents_statusOk()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test09_getPublicEvents_statusOk()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:26 IST" name="test09_getPublicEvents_statusOk" finished-at="2025-12-01T17:48:27 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test09_getPublicEvents_statusOk -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test09_getPublicEvents_statusOk()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test10_getPublicEvents_bodyNotNull()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test10_getPublicEvents_bodyNotNull()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test10_getPublicEvents_bodyNotNull" finished-at="2025-12-01T17:48:27 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10_getPublicEvents_bodyNotNull -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test10_getPublicEvents_bodyNotNull()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test11_getPublicEvents_returnsJsonArrayOrEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test11_getPublicEvents_returnsJsonArrayOrEmpty()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test11_getPublicEvents_returnsJsonArrayOrEmpty" finished-at="2025-12-01T17:48:27 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11_getPublicEvents_returnsJsonArrayOrEmpty -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test11_getPublicEvents_returnsJsonArrayOrEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test12_getPublicEvents_contentTypeJson()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test12_getPublicEvents_contentTypeJson()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test12_getPublicEvents_contentTypeJson" finished-at="2025-12-01T17:48:27 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12_getPublicEvents_contentTypeJson -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test12_getPublicEvents_contentTypeJson()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test13_getPublicEvents_noAuthRequired()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test13_getPublicEvents_noAuthRequired()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test13_getPublicEvents_noAuthRequired" finished-at="2025-12-01T17:48:27 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test13_getPublicEvents_noAuthRequired -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test13_getPublicEvents_noAuthRequired()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test14_registerUser_statusOkOrBadRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test14_registerUser_statusOkOrBadRequest()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test14_registerUser_statusOkOrBadRequest" finished-at="2025-12-01T17:48:27 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test14_registerUser_statusOkOrBadRequest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test14_registerUser_statusOkOrBadRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test15_registerUser_returnsMessage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test15_registerUser_returnsMessage()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test15_registerUser_returnsMessage" finished-at="2025-12-01T17:48:27 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test15_registerUser_returnsMessage -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test15_registerUser_returnsMessage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test16_loginUser_statusOk()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test16_loginUser_statusOk()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test16_loginUser_statusOk" finished-at="2025-12-01T17:48:27 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test16_loginUser_statusOk -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test16_loginUser_statusOk()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test17_loginUser_returnsTokenField()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test17_loginUser_returnsTokenField()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test17_loginUser_returnsTokenField" finished-at="2025-12-01T17:48:27 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test17_loginUser_returnsTokenField -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test17_loginUser_returnsTokenField()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test18_loginInvalidCredentials_statusUnauthorized()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test18_loginInvalidCredentials_statusUnauthorized()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test18_loginInvalidCredentials_statusUnauthorized" finished-at="2025-12-01T17:48:27 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test18_loginInvalidCredentials_statusUnauthorized -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test18_loginInvalidCredentials_statusUnauthorized()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test19_registerUser_missingName_badRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test19_registerUser_missingName_badRequest()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test19_registerUser_missingName_badRequest" finished-at="2025-12-01T17:48:27 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test19_registerUser_missingName_badRequest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test19_registerUser_missingName_badRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test20_registerDuplicateUser_badRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test20_registerDuplicateUser_badRequest()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test20_registerDuplicateUser_badRequest" finished-at="2025-12-01T17:48:27 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test20_registerDuplicateUser_badRequest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test20_registerDuplicateUser_badRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test21_loginUser_responseContentTypeJson()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test21_loginUser_responseContentTypeJson()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test21_loginUser_responseContentTypeJson" finished-at="2025-12-01T17:48:27 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test21_loginUser_responseContentTypeJson -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test21_loginUser_responseContentTypeJson()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test22_registerSubscriber_statusOk()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test22_registerSubscriber_statusOk()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test22_registerSubscriber_statusOk" finished-at="2025-12-01T17:48:27 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test22_registerSubscriber_statusOk -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test22_registerSubscriber_statusOk()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test23_registerSubscriber_bodyNotNull()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test23_registerSubscriber_bodyNotNull()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test23_registerSubscriber_bodyNotNull" finished-at="2025-12-01T17:48:27 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test23_registerSubscriber_bodyNotNull -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test23_registerSubscriber_bodyNotNull()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test24_registerSubscriber_invalidMissingName_badRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test24_registerSubscriber_invalidMissingName_badRequest()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test24_registerSubscriber_invalidMissingName_badRequest" finished-at="2025-12-01T17:48:27 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test24_registerSubscriber_invalidMissingName_badRequest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test24_registerSubscriber_invalidMissingName_badRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test25_getSubscribersMatch_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test25_getSubscribersMatch_requiresAuth()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test25_getSubscribersMatch_requiresAuth" finished-at="2025-12-01T17:48:27 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test25_getSubscribersMatch_requiresAuth -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test25_getSubscribersMatch_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test26_registerSubscriber_statusCodeIn2xxRange()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test26_registerSubscriber_statusCodeIn2xxRange()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test26_registerSubscriber_statusCodeIn2xxRange" finished-at="2025-12-01T17:48:27 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test26_registerSubscriber_statusCodeIn2xxRange -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test26_registerSubscriber_statusCodeIn2xxRange()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test27_generateToken_notNullAndNonEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test27_generateToken_notNullAndNonEmpty()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:27 IST" name="test27_generateToken_notNullAndNonEmpty" finished-at="2025-12-01T17:48:28 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test27_generateToken_notNullAndNonEmpty -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test27_generateToken_notNullAndNonEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test28_validateToken_trueForValidToken()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test28_validateToken_trueForValidToken()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test28_validateToken_trueForValidToken" finished-at="2025-12-01T17:48:28 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test28_validateToken_trueForValidToken -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test28_validateToken_trueForValidToken()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test29_validateToken_falseForInvalidToken()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test29_validateToken_falseForInvalidToken()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test29_validateToken_falseForInvalidToken" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test29_validateToken_falseForInvalidToken -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test29_validateToken_falseForInvalidToken()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test30_createEvent_statusOk()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test30_createEvent_statusOk()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test30_createEvent_statusOk" finished-at="2025-12-01T17:48:28 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test30_createEvent_statusOk -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test30_createEvent_statusOk()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test31_getEvent_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test31_getEvent_requiresAuth()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test31_getEvent_requiresAuth" finished-at="2025-12-01T17:48:28 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test31_getEvent_requiresAuth -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test31_getEvent_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test32_getEventsByOrganizer_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test32_getEventsByOrganizer_requiresAuth()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test32_getEventsByOrganizer_requiresAuth" finished-at="2025-12-01T17:48:28 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test32_getEventsByOrganizer_requiresAuth -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test32_getEventsByOrganizer_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test33_deleteEvent_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test33_deleteEvent_requiresAuth()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test33_deleteEvent_requiresAuth" finished-at="2025-12-01T17:48:28 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test33_deleteEvent_requiresAuth -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test33_deleteEvent_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test34_createEvent_missingTitle_badRequestOrError()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test34_createEvent_missingTitle_badRequestOrError()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test34_createEvent_missingTitle_badRequestOrError" finished-at="2025-12-01T17:48:28 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test34_createEvent_missingTitle_badRequestOrError -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test34_createEvent_missingTitle_badRequestOrError()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test35_getPublicEvents_statusFamily2xx()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test35_getPublicEvents_statusFamily2xx()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test35_getPublicEvents_statusFamily2xx" finished-at="2025-12-01T17:48:28 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test35_getPublicEvents_statusFamily2xx -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test35_getPublicEvents_statusFamily2xx()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test36_getPublicEvents_bodyIsString()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test36_getPublicEvents_bodyIsString()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test36_getPublicEvents_bodyIsString" finished-at="2025-12-01T17:48:28 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test36_getPublicEvents_bodyIsString -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test36_getPublicEvents_bodyIsString()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test37_scheduleBroadcast_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test37_scheduleBroadcast_requiresAuth()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test37_scheduleBroadcast_requiresAuth" finished-at="2025-12-01T17:48:28 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test37_scheduleBroadcast_requiresAuth -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test37_scheduleBroadcast_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test38_runBroadcast_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test38_runBroadcast_requiresAuth()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test38_runBroadcast_requiresAuth" finished-at="2025-12-01T17:48:28 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test38_runBroadcast_requiresAuth -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test38_runBroadcast_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test39_getBroadcastsByEvent_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test39_getBroadcastsByEvent_requiresAuth()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test39_getBroadcastsByEvent_requiresAuth" finished-at="2025-12-01T17:48:28 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test39_getBroadcastsByEvent_requiresAuth -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test39_getBroadcastsByEvent_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test40_getBroadcastLogs_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test40_getBroadcastLogs_requiresAuth()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test40_getBroadcastLogs_requiresAuth" finished-at="2025-12-01T17:48:28 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test40_getBroadcastLogs_requiresAuth -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test40_getBroadcastLogs_requiresAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test41_scheduleBroadcast_statusCode4xxOr5xxWithoutAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test41_scheduleBroadcast_statusCode4xxOr5xxWithoutAuth()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test41_scheduleBroadcast_statusCode4xxOr5xxWithoutAuth" finished-at="2025-12-01T17:48:28 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test41_scheduleBroadcast_statusCode4xxOr5xxWithoutAuth -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test41_scheduleBroadcast_statusCode4xxOr5xxWithoutAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test42_runBroadcast_statusCode4xxOr5xxWithoutAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test42_runBroadcast_statusCode4xxOr5xxWithoutAuth()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test42_runBroadcast_statusCode4xxOr5xxWithoutAuth" finished-at="2025-12-01T17:48:28 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test42_runBroadcast_statusCode4xxOr5xxWithoutAuth -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test42_runBroadcast_statusCode4xxOr5xxWithoutAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test43_getBroadcastsByEvent_statusCode4xxOr5xxWithoutAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test43_getBroadcastsByEvent_statusCode4xxOr5xxWithoutAuth()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test43_getBroadcastsByEvent_statusCode4xxOr5xxWithoutAuth" finished-at="2025-12-01T17:48:28 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test43_getBroadcastsByEvent_statusCode4xxOr5xxWithoutAuth -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test43_getBroadcastsByEvent_statusCode4xxOr5xxWithoutAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAuth()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAuth" finished-at="2025-12-01T17:48:28 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAuth -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAuth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextBeforeTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test45_apiBaseUrlStringIsWellFormed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test45_apiBaseUrlStringIsWellFormed()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="test45_apiBaseUrlStringIsWellFormed" finished-at="2025-12-01T17:48:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test45_apiBaseUrlStringIsWellFormed -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestMethod" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.demo.ApiIntegrationTests.test45_apiBaseUrlStringIsWellFormed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.example.demo.ApiIntegrationTests@4a194c39]" started-at="2025-12-01T17:48:28 IST" name="springTestContextAfterTestClass" finished-at="2025-12-01T17:48:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.example.demo.ApiIntegrationTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

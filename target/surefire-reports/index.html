@@ -1,0 +1,1486 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">45 methods,   45 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test01_controllersFolderExists">test01_controllersFolderExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test02_entitiesFolderExists">test02_entitiesFolderExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test03_repositoriesFolderExists">test03_repositoriesFolderExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test04_eventControllerFileExists">test04_eventControllerFileExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test05_authControllerFileExists">test05_authControllerFileExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test06_contextLoads">test06_contextLoads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test07_baseUrlIsNotEmpty">test07_baseUrlIsNotEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test08_swaggerUiPathString">test08_swaggerUiPathString</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test09_getPublicEvents_statusOk">test09_getPublicEvents_statusOk</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test10_getPublicEvents_bodyNotNull">test10_getPublicEvents_bodyNotNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test11_getPublicEvents_returnsJsonArrayOrEmpty">test11_getPublicEvents_returnsJsonArrayOrEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test12_getPublicEvents_contentTypeJson">test12_getPublicEvents_contentTypeJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test13_getPublicEvents_noAuthRequired">test13_getPublicEvents_noAuthRequired</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test14_registerUser_statusOkOrBadRequest">test14_registerUser_statusOkOrBadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test15_registerUser_returnsMessage">test15_registerUser_returnsMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test16_loginUser_statusOk">test16_loginUser_statusOk</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test17_loginUser_returnsTokenField">test17_loginUser_returnsTokenField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test18_loginInvalidCredentials_statusUnauthorized">test18_loginInvalidCredentials_statusUnauthorized</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test19_registerUser_missingName_badRequest">test19_registerUser_missingName_badRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test20_registerDuplicateUser_badRequest">test20_registerDuplicateUser_badRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test21_loginUser_responseContentTypeJson">test21_loginUser_responseContentTypeJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test22_registerSubscriber_statusOk">test22_registerSubscriber_statusOk</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test23_registerSubscriber_bodyNotNull">test23_registerSubscriber_bodyNotNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test24_registerSubscriber_invalidMissingName_badRequest">test24_registerSubscriber_invalidMissingName_badRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test25_getSubscribersMatch_requiresAuth">test25_getSubscribersMatch_requiresAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test26_registerSubscriber_statusCodeIn2xxRange">test26_registerSubscriber_statusCodeIn2xxRange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test27_generateToken_notNullAndNonEmpty">test27_generateToken_notNullAndNonEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test28_validateToken_trueForValidToken">test28_validateToken_trueForValidToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test29_validateToken_falseForInvalidToken">test29_validateToken_falseForInvalidToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test30_createEvent_statusOk">test30_createEvent_statusOk</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test31_getEvent_requiresAuth">test31_getEvent_requiresAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test32_getEventsByOrganizer_requiresAuth">test32_getEventsByOrganizer_requiresAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test33_deleteEvent_requiresAuth">test33_deleteEvent_requiresAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test34_createEvent_missingTitle_badRequestOrError">test34_createEvent_missingTitle_badRequestOrError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test35_getPublicEvents_statusFamily2xx">test35_getPublicEvents_statusFamily2xx</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test36_getPublicEvents_bodyIsString">test36_getPublicEvents_bodyIsString</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test37_scheduleBroadcast_requiresAuth">test37_scheduleBroadcast_requiresAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test38_runBroadcast_requiresAuth">test38_runBroadcast_requiresAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test39_getBroadcastsByEvent_requiresAuth">test39_getBroadcastsByEvent_requiresAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test40_getBroadcastLogs_requiresAuth">test40_getBroadcastLogs_requiresAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test41_scheduleBroadcast_statusCode4xxOr5xxWithoutAuth">test41_scheduleBroadcast_statusCode4xxOr5xxWithoutAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test42_runBroadcast_statusCode4xxOr5xxWithoutAuth">test42_runBroadcast_statusCode4xxOr5xxWithoutAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test43_getBroadcastsByEvent_statusCode4xxOr5xxWithoutAuth">test43_getBroadcastsByEvent_statusCode4xxOr5xxWithoutAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAuth">test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.demo.ApiIntegrationTests" class="method navigator-link" hash-for-method="test45_apiBaseUrlStringIsWellFormed">test45_apiBaseUrlStringIsWellFormed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.demo.ApiIntegrationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test01_controllersFolderExists">
+                  </a> <!-- test01_controllersFolderExists -->
+                  <span class="method-name">test01_controllersFolderExists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test02_entitiesFolderExists">
+                  </a> <!-- test02_entitiesFolderExists -->
+                  <span class="method-name">test02_entitiesFolderExists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test03_repositoriesFolderExists">
+                  </a> <!-- test03_repositoriesFolderExists -->
+                  <span class="method-name">test03_repositoriesFolderExists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test04_eventControllerFileExists">
+                  </a> <!-- test04_eventControllerFileExists -->
+                  <span class="method-name">test04_eventControllerFileExists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test05_authControllerFileExists">
+                  </a> <!-- test05_authControllerFileExists -->
+                  <span class="method-name">test05_authControllerFileExists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test06_contextLoads">
+                  </a> <!-- test06_contextLoads -->
+                  <span class="method-name">test06_contextLoads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test07_baseUrlIsNotEmpty">
+                  </a> <!-- test07_baseUrlIsNotEmpty -->
+                  <span class="method-name">test07_baseUrlIsNotEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test08_swaggerUiPathString">
+                  </a> <!-- test08_swaggerUiPathString -->
+                  <span class="method-name">test08_swaggerUiPathString</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test09_getPublicEvents_statusOk">
+                  </a> <!-- test09_getPublicEvents_statusOk -->
+                  <span class="method-name">test09_getPublicEvents_statusOk</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test10_getPublicEvents_bodyNotNull">
+                  </a> <!-- test10_getPublicEvents_bodyNotNull -->
+                  <span class="method-name">test10_getPublicEvents_bodyNotNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test11_getPublicEvents_returnsJsonArrayOrEmpty">
+                  </a> <!-- test11_getPublicEvents_returnsJsonArrayOrEmpty -->
+                  <span class="method-name">test11_getPublicEvents_returnsJsonArrayOrEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test12_getPublicEvents_contentTypeJson">
+                  </a> <!-- test12_getPublicEvents_contentTypeJson -->
+                  <span class="method-name">test12_getPublicEvents_contentTypeJson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test13_getPublicEvents_noAuthRequired">
+                  </a> <!-- test13_getPublicEvents_noAuthRequired -->
+                  <span class="method-name">test13_getPublicEvents_noAuthRequired</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test14_registerUser_statusOkOrBadRequest">
+                  </a> <!-- test14_registerUser_statusOkOrBadRequest -->
+                  <span class="method-name">test14_registerUser_statusOkOrBadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test15_registerUser_returnsMessage">
+                  </a> <!-- test15_registerUser_returnsMessage -->
+                  <span class="method-name">test15_registerUser_returnsMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test16_loginUser_statusOk">
+                  </a> <!-- test16_loginUser_statusOk -->
+                  <span class="method-name">test16_loginUser_statusOk</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test17_loginUser_returnsTokenField">
+                  </a> <!-- test17_loginUser_returnsTokenField -->
+                  <span class="method-name">test17_loginUser_returnsTokenField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test18_loginInvalidCredentials_statusUnauthorized">
+                  </a> <!-- test18_loginInvalidCredentials_statusUnauthorized -->
+                  <span class="method-name">test18_loginInvalidCredentials_statusUnauthorized</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test19_registerUser_missingName_badRequest">
+                  </a> <!-- test19_registerUser_missingName_badRequest -->
+                  <span class="method-name">test19_registerUser_missingName_badRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test20_registerDuplicateUser_badRequest">
+                  </a> <!-- test20_registerDuplicateUser_badRequest -->
+                  <span class="method-name">test20_registerDuplicateUser_badRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test21_loginUser_responseContentTypeJson">
+                  </a> <!-- test21_loginUser_responseContentTypeJson -->
+                  <span class="method-name">test21_loginUser_responseContentTypeJson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test22_registerSubscriber_statusOk">
+                  </a> <!-- test22_registerSubscriber_statusOk -->
+                  <span class="method-name">test22_registerSubscriber_statusOk</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test23_registerSubscriber_bodyNotNull">
+                  </a> <!-- test23_registerSubscriber_bodyNotNull -->
+                  <span class="method-name">test23_registerSubscriber_bodyNotNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test24_registerSubscriber_invalidMissingName_badRequest">
+                  </a> <!-- test24_registerSubscriber_invalidMissingName_badRequest -->
+                  <span class="method-name">test24_registerSubscriber_invalidMissingName_badRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test25_getSubscribersMatch_requiresAuth">
+                  </a> <!-- test25_getSubscribersMatch_requiresAuth -->
+                  <span class="method-name">test25_getSubscribersMatch_requiresAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test26_registerSubscriber_statusCodeIn2xxRange">
+                  </a> <!-- test26_registerSubscriber_statusCodeIn2xxRange -->
+                  <span class="method-name">test26_registerSubscriber_statusCodeIn2xxRange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test27_generateToken_notNullAndNonEmpty">
+                  </a> <!-- test27_generateToken_notNullAndNonEmpty -->
+                  <span class="method-name">test27_generateToken_notNullAndNonEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test28_validateToken_trueForValidToken">
+                  </a> <!-- test28_validateToken_trueForValidToken -->
+                  <span class="method-name">test28_validateToken_trueForValidToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test29_validateToken_falseForInvalidToken">
+                  </a> <!-- test29_validateToken_falseForInvalidToken -->
+                  <span class="method-name">test29_validateToken_falseForInvalidToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test30_createEvent_statusOk">
+                  </a> <!-- test30_createEvent_statusOk -->
+                  <span class="method-name">test30_createEvent_statusOk</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test31_getEvent_requiresAuth">
+                  </a> <!-- test31_getEvent_requiresAuth -->
+                  <span class="method-name">test31_getEvent_requiresAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test32_getEventsByOrganizer_requiresAuth">
+                  </a> <!-- test32_getEventsByOrganizer_requiresAuth -->
+                  <span class="method-name">test32_getEventsByOrganizer_requiresAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test33_deleteEvent_requiresAuth">
+                  </a> <!-- test33_deleteEvent_requiresAuth -->
+                  <span class="method-name">test33_deleteEvent_requiresAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test34_createEvent_missingTitle_badRequestOrError">
+                  </a> <!-- test34_createEvent_missingTitle_badRequestOrError -->
+                  <span class="method-name">test34_createEvent_missingTitle_badRequestOrError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test35_getPublicEvents_statusFamily2xx">
+                  </a> <!-- test35_getPublicEvents_statusFamily2xx -->
+                  <span class="method-name">test35_getPublicEvents_statusFamily2xx</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test36_getPublicEvents_bodyIsString">
+                  </a> <!-- test36_getPublicEvents_bodyIsString -->
+                  <span class="method-name">test36_getPublicEvents_bodyIsString</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test37_scheduleBroadcast_requiresAuth">
+                  </a> <!-- test37_scheduleBroadcast_requiresAuth -->
+                  <span class="method-name">test37_scheduleBroadcast_requiresAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test38_runBroadcast_requiresAuth">
+                  </a> <!-- test38_runBroadcast_requiresAuth -->
+                  <span class="method-name">test38_runBroadcast_requiresAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test39_getBroadcastsByEvent_requiresAuth">
+                  </a> <!-- test39_getBroadcastsByEvent_requiresAuth -->
+                  <span class="method-name">test39_getBroadcastsByEvent_requiresAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test40_getBroadcastLogs_requiresAuth">
+                  </a> <!-- test40_getBroadcastLogs_requiresAuth -->
+                  <span class="method-name">test40_getBroadcastLogs_requiresAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test41_scheduleBroadcast_statusCode4xxOr5xxWithoutAuth">
+                  </a> <!-- test41_scheduleBroadcast_statusCode4xxOr5xxWithoutAuth -->
+                  <span class="method-name">test41_scheduleBroadcast_statusCode4xxOr5xxWithoutAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test42_runBroadcast_statusCode4xxOr5xxWithoutAuth">
+                  </a> <!-- test42_runBroadcast_statusCode4xxOr5xxWithoutAuth -->
+                  <span class="method-name">test42_runBroadcast_statusCode4xxOr5xxWithoutAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test43_getBroadcastsByEvent_statusCode4xxOr5xxWithoutAuth">
+                  </a> <!-- test43_getBroadcastsByEvent_statusCode4xxOr5xxWithoutAuth -->
+                  <span class="method-name">test43_getBroadcastsByEvent_statusCode4xxOr5xxWithoutAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAuth">
+                  </a> <!-- test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAuth -->
+                  <span class="method-name">test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test45_apiBaseUrlStringIsWellFormed">
+                  </a> <!-- test45_apiBaseUrlStringIsWellFormed -->
+                  <span class="method-name">test45_apiBaseUrlStringIsWellFormed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.example.demo.ApiIntegrationTests&quot;/&gt;
+      &lt;class name=&quot;com.example.demo.TestResultListener&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(45);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test09_getPublicEvents_statusOk')
+data.setCell(0, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(0, 3, 593);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test14_registerUser_statusOkOrBadRequest')
+data.setCell(1, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(1, 3, 173);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test22_registerSubscriber_statusOk')
+data.setCell(2, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(2, 3, 172);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test27_generateToken_notNullAndNonEmpty')
+data.setCell(3, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(3, 3, 124);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test28_validateToken_trueForValidToken')
+data.setCell(4, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(4, 3, 52);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test24_registerSubscriber_invalidMissingName_badRequest')
+data.setCell(5, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(5, 3, 44);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test16_loginUser_statusOk')
+data.setCell(6, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(6, 3, 40);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test30_createEvent_statusOk')
+data.setCell(7, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(7, 3, 38);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test34_createEvent_missingTitle_badRequestOrError')
+data.setCell(8, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(8, 3, 38);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test17_loginUser_returnsTokenField')
+data.setCell(9, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(9, 3, 34);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test23_registerSubscriber_bodyNotNull')
+data.setCell(10, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(10, 3, 32);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test21_loginUser_responseContentTypeJson')
+data.setCell(11, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(11, 3, 29);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test20_registerDuplicateUser_badRequest')
+data.setCell(12, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(12, 3, 28);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test25_getSubscribersMatch_requiresAuth')
+data.setCell(13, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(13, 3, 27);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test26_registerSubscriber_statusCodeIn2xxRange')
+data.setCell(14, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(14, 3, 24);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test10_getPublicEvents_bodyNotNull')
+data.setCell(15, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(15, 3, 18);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test18_loginInvalidCredentials_statusUnauthorized')
+data.setCell(16, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(16, 3, 17);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test19_registerUser_missingName_badRequest')
+data.setCell(17, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(17, 3, 17);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test12_getPublicEvents_contentTypeJson')
+data.setCell(18, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(18, 3, 16);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test33_deleteEvent_requiresAuth')
+data.setCell(19, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(19, 3, 15);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'test11_getPublicEvents_returnsJsonArrayOrEmpty')
+data.setCell(20, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(20, 3, 14);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'test15_registerUser_returnsMessage')
+data.setCell(21, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(21, 3, 14);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'test01_controllersFolderExists')
+data.setCell(22, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(22, 3, 13);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'test13_getPublicEvents_noAuthRequired')
+data.setCell(23, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(23, 3, 13);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'test37_scheduleBroadcast_requiresAuth')
+data.setCell(24, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(24, 3, 12);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAuth')
+data.setCell(25, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(25, 3, 11);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'test38_runBroadcast_requiresAuth')
+data.setCell(26, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(26, 3, 11);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'test31_getEvent_requiresAuth')
+data.setCell(27, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(27, 3, 10);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'test43_getBroadcastsByEvent_statusCode4xxOr5xxWithoutAuth')
+data.setCell(28, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(28, 3, 10);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'test40_getBroadcastLogs_requiresAuth')
+data.setCell(29, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(29, 3, 10);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'test36_getPublicEvents_bodyIsString')
+data.setCell(30, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(30, 3, 10);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'test39_getBroadcastsByEvent_requiresAuth')
+data.setCell(31, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(31, 3, 10);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'test32_getEventsByOrganizer_requiresAuth')
+data.setCell(32, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(32, 3, 10);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'test42_runBroadcast_statusCode4xxOr5xxWithoutAuth')
+data.setCell(33, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(33, 3, 9);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'test35_getPublicEvents_statusFamily2xx')
+data.setCell(34, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(34, 3, 9);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'test41_scheduleBroadcast_statusCode4xxOr5xxWithoutAuth')
+data.setCell(35, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(35, 3, 9);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'test05_authControllerFileExists')
+data.setCell(36, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(36, 3, 2);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'test02_entitiesFolderExists')
+data.setCell(37, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(37, 3, 2);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'test03_repositoriesFolderExists')
+data.setCell(38, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(38, 3, 2);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'test07_baseUrlIsNotEmpty')
+data.setCell(39, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(39, 3, 2);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'test29_validateToken_falseForInvalidToken')
+data.setCell(40, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(40, 3, 2);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'test06_contextLoads')
+data.setCell(41, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(41, 3, 1);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'test45_apiBaseUrlStringIsWellFormed')
+data.setCell(42, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(42, 3, 1);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'test08_swaggerUiPathString')
+data.setCell(43, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(43, 3, 1);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'test04_eventControllerFileExists')
+data.setCell(44, 2, 'com.example.demo.ApiIntegrationTests')
+data.setCell(44, 3, 1);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.demo.ApiIntegrationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test01_controllersFolderExists())</span>
+                <span class="method-start">12390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test01_controllersFolderExists</span>
+                <span class="method-start">13354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test01_controllersFolderExists())</span>
+                <span class="method-start">13371 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test02_entitiesFolderExists())</span>
+                <span class="method-start">13385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test02_entitiesFolderExists</span>
+                <span class="method-start">13389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test02_entitiesFolderExists())</span>
+                <span class="method-start">13392 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test03_repositoriesFolderExists())</span>
+                <span class="method-start">13398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test03_repositoriesFolderExists</span>
+                <span class="method-start">13401 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test03_repositoriesFolderExists())</span>
+                <span class="method-start">13405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test04_eventControllerFileExists())</span>
+                <span class="method-start">13409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test04_eventControllerFileExists</span>
+                <span class="method-start">13414 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test04_eventControllerFileExists())</span>
+                <span class="method-start">13415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test05_authControllerFileExists())</span>
+                <span class="method-start">13421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test05_authControllerFileExists</span>
+                <span class="method-start">13423 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test05_authControllerFileExists())</span>
+                <span class="method-start">13425 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test06_contextLoads())</span>
+                <span class="method-start">13432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test06_contextLoads</span>
+                <span class="method-start">13435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test06_contextLoads())</span>
+                <span class="method-start">13437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test07_baseUrlIsNotEmpty())</span>
+                <span class="method-start">13447 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test07_baseUrlIsNotEmpty</span>
+                <span class="method-start">13450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test07_baseUrlIsNotEmpty())</span>
+                <span class="method-start">13453 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test08_swaggerUiPathString())</span>
+                <span class="method-start">13460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test08_swaggerUiPathString</span>
+                <span class="method-start">13463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test08_swaggerUiPathString())</span>
+                <span class="method-start">13465 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test09_getPublicEvents_statusOk())</span>
+                <span class="method-start">13471 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test09_getPublicEvents_statusOk</span>
+                <span class="method-start">13473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test09_getPublicEvents_statusOk())</span>
+                <span class="method-start">14066 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test10_getPublicEvents_bodyNotNull())</span>
+                <span class="method-start">14071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test10_getPublicEvents_bodyNotNull</span>
+                <span class="method-start">14073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test10_getPublicEvents_bodyNotNull())</span>
+                <span class="method-start">14092 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test11_getPublicEvents_returnsJsonArrayOrEmpty())</span>
+                <span class="method-start">14098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test11_getPublicEvents_returnsJsonArrayOrEmpty</span>
+                <span class="method-start">14101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test11_getPublicEvents_returnsJsonArrayOrEmpty())</span>
+                <span class="method-start">14116 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test12_getPublicEvents_contentTypeJson())</span>
+                <span class="method-start">14121 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test12_getPublicEvents_contentTypeJson</span>
+                <span class="method-start">14123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test12_getPublicEvents_contentTypeJson())</span>
+                <span class="method-start">14140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test13_getPublicEvents_noAuthRequired())</span>
+                <span class="method-start">14146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test13_getPublicEvents_noAuthRequired</span>
+                <span class="method-start">14149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test13_getPublicEvents_noAuthRequired())</span>
+                <span class="method-start">14162 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test14_registerUser_statusOkOrBadRequest())</span>
+                <span class="method-start">14166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test14_registerUser_statusOkOrBadRequest</span>
+                <span class="method-start">14169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test14_registerUser_statusOkOrBadRequest())</span>
+                <span class="method-start">14343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test15_registerUser_returnsMessage())</span>
+                <span class="method-start">14347 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test15_registerUser_returnsMessage</span>
+                <span class="method-start">14350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test15_registerUser_returnsMessage())</span>
+                <span class="method-start">14364 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test16_loginUser_statusOk())</span>
+                <span class="method-start">14368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test16_loginUser_statusOk</span>
+                <span class="method-start">14370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test16_loginUser_statusOk())</span>
+                <span class="method-start">14412 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test17_loginUser_returnsTokenField())</span>
+                <span class="method-start">14416 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test17_loginUser_returnsTokenField</span>
+                <span class="method-start">14417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test17_loginUser_returnsTokenField())</span>
+                <span class="method-start">14452 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test18_loginInvalidCredentials_statusUnauthorized())</span>
+                <span class="method-start">14456 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test18_loginInvalidCredentials_statusUnauthorized</span>
+                <span class="method-start">14458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test18_loginInvalidCredentials_statusUnauthorized())</span>
+                <span class="method-start">14476 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test19_registerUser_missingName_badRequest())</span>
+                <span class="method-start">14479 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test19_registerUser_missingName_badRequest</span>
+                <span class="method-start">14481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test19_registerUser_missingName_badRequest())</span>
+                <span class="method-start">14499 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test20_registerDuplicateUser_badRequest())</span>
+                <span class="method-start">14502 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test20_registerDuplicateUser_badRequest</span>
+                <span class="method-start">14504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test20_registerDuplicateUser_badRequest())</span>
+                <span class="method-start">14533 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test21_loginUser_responseContentTypeJson())</span>
+                <span class="method-start">14538 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test21_loginUser_responseContentTypeJson</span>
+                <span class="method-start">14539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test21_loginUser_responseContentTypeJson())</span>
+                <span class="method-start">14569 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test22_registerSubscriber_statusOk())</span>
+                <span class="method-start">14572 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test22_registerSubscriber_statusOk</span>
+                <span class="method-start">14573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test22_registerSubscriber_statusOk())</span>
+                <span class="method-start">14746 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test23_registerSubscriber_bodyNotNull())</span>
+                <span class="method-start">14749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test23_registerSubscriber_bodyNotNull</span>
+                <span class="method-start">14750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test23_registerSubscriber_bodyNotNull())</span>
+                <span class="method-start">14782 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test24_registerSubscriber_invalidMissingName_badReq...)</span>
+                <span class="method-start">14785 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test24_registerSubscriber_invalidMissingName_badRequest</span>
+                <span class="method-start">14787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test24_registerSubscriber_invalidMissingName_badReq...)</span>
+                <span class="method-start">14832 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test25_getSubscribersMatch_requiresAuth())</span>
+                <span class="method-start">14835 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test25_getSubscribersMatch_requiresAuth</span>
+                <span class="method-start">14836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test25_getSubscribersMatch_requiresAuth())</span>
+                <span class="method-start">14864 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test26_registerSubscriber_statusCodeIn2xxRange())</span>
+                <span class="method-start">14866 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test26_registerSubscriber_statusCodeIn2xxRange</span>
+                <span class="method-start">14868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test26_registerSubscriber_statusCodeIn2xxRange())</span>
+                <span class="method-start">14893 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test27_generateToken_notNullAndNonEmpty())</span>
+                <span class="method-start">14896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test27_generateToken_notNullAndNonEmpty</span>
+                <span class="method-start">14898 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test27_generateToken_notNullAndNonEmpty())</span>
+                <span class="method-start">15022 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test28_validateToken_trueForValidToken())</span>
+                <span class="method-start">15025 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test28_validateToken_trueForValidToken</span>
+                <span class="method-start">15026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test28_validateToken_trueForValidToken())</span>
+                <span class="method-start">15079 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test29_validateToken_falseForInvalidToken())</span>
+                <span class="method-start">15081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test29_validateToken_falseForInvalidToken</span>
+                <span class="method-start">15083 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test29_validateToken_falseForInvalidToken())</span>
+                <span class="method-start">15086 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test30_createEvent_statusOk())</span>
+                <span class="method-start">15089 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test30_createEvent_statusOk</span>
+                <span class="method-start">15091 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test30_createEvent_statusOk())</span>
+                <span class="method-start">15130 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test31_getEvent_requiresAuth())</span>
+                <span class="method-start">15132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test31_getEvent_requiresAuth</span>
+                <span class="method-start">15134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test31_getEvent_requiresAuth())</span>
+                <span class="method-start">15145 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test32_getEventsByOrganizer_requiresAuth())</span>
+                <span class="method-start">15147 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test32_getEventsByOrganizer_requiresAuth</span>
+                <span class="method-start">15149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test32_getEventsByOrganizer_requiresAuth())</span>
+                <span class="method-start">15160 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test33_deleteEvent_requiresAuth())</span>
+                <span class="method-start">15163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test33_deleteEvent_requiresAuth</span>
+                <span class="method-start">15165 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test33_deleteEvent_requiresAuth())</span>
+                <span class="method-start">15180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test34_createEvent_missingTitle_badRequestOrError())</span>
+                <span class="method-start">15183 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test34_createEvent_missingTitle_badRequestOrError</span>
+                <span class="method-start">15184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test34_createEvent_missingTitle_badRequestOrError())</span>
+                <span class="method-start">15223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test35_getPublicEvents_statusFamily2xx())</span>
+                <span class="method-start">15226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test35_getPublicEvents_statusFamily2xx</span>
+                <span class="method-start">15228 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test35_getPublicEvents_statusFamily2xx())</span>
+                <span class="method-start">15238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test36_getPublicEvents_bodyIsString())</span>
+                <span class="method-start">15240 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test36_getPublicEvents_bodyIsString</span>
+                <span class="method-start">15242 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test36_getPublicEvents_bodyIsString())</span>
+                <span class="method-start">15252 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test37_scheduleBroadcast_requiresAuth())</span>
+                <span class="method-start">15255 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test37_scheduleBroadcast_requiresAuth</span>
+                <span class="method-start">15256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test37_scheduleBroadcast_requiresAuth())</span>
+                <span class="method-start">15268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test38_runBroadcast_requiresAuth())</span>
+                <span class="method-start">15270 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test38_runBroadcast_requiresAuth</span>
+                <span class="method-start">15272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test38_runBroadcast_requiresAuth())</span>
+                <span class="method-start">15283 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test39_getBroadcastsByEvent_requiresAuth())</span>
+                <span class="method-start">15285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test39_getBroadcastsByEvent_requiresAuth</span>
+                <span class="method-start">15287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test39_getBroadcastsByEvent_requiresAuth())</span>
+                <span class="method-start">15298 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test40_getBroadcastLogs_requiresAuth())</span>
+                <span class="method-start">15301 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test40_getBroadcastLogs_requiresAuth</span>
+                <span class="method-start">15302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test40_getBroadcastLogs_requiresAuth())</span>
+                <span class="method-start">15313 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test41_scheduleBroadcast_statusCode4xxOr5xxWithoutA...)</span>
+                <span class="method-start">15315 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test41_scheduleBroadcast_statusCode4xxOr5xxWithoutAuth</span>
+                <span class="method-start">15316 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test41_scheduleBroadcast_statusCode4xxOr5xxWithoutA...)</span>
+                <span class="method-start">15325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test42_runBroadcast_statusCode4xxOr5xxWithoutAuth())</span>
+                <span class="method-start">15328 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test42_runBroadcast_statusCode4xxOr5xxWithoutAuth</span>
+                <span class="method-start">15329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test42_runBroadcast_statusCode4xxOr5xxWithoutAuth())</span>
+                <span class="method-start">15339 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test43_getBroadcastsByEvent_statusCode4xxOr5xxWitho...)</span>
+                <span class="method-start">15342 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test43_getBroadcastsByEvent_statusCode4xxOr5xxWithoutAuth</span>
+                <span class="method-start">15344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test43_getBroadcastsByEvent_statusCode4xxOr5xxWitho...)</span>
+                <span class="method-start">15355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAu...)</span>
+                <span class="method-start">15359 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAuth</span>
+                <span class="method-start">15361 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAu...)</span>
+                <span class="method-start">15372 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void com.example.demo.ApiIntegrationTests.test45_apiBaseUrlStringIsWellFormed())</span>
+                <span class="method-start">15376 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test45_apiBaseUrlStringIsWellFormed</span>
+                <span class="method-start">15377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void com.example.demo.ApiIntegrationTests.test45_apiBaseUrlStringIsWellFormed())</span>
+                <span class="method-start">15379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">15382 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

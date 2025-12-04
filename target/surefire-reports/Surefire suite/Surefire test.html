@@ -1,0 +1,305 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>45/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 01 17:48:13 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15426 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test26_registerSubscriber_statusCodeIn2xxRange()'><b>test26_registerSubscriber_statusCodeIn2xxRange</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test14_registerUser_statusOkOrBadRequest()'><b>test14_registerUser_statusOkOrBadRequest</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test23_registerSubscriber_bodyNotNull()'><b>test23_registerSubscriber_bodyNotNull</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test20_registerDuplicateUser_badRequest()'><b>test20_registerDuplicateUser_badRequest</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAuth()'><b>test44_getBroadcastLogs_statusCode4xxOr5xxWithoutAuth</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test31_getEvent_requiresAuth()'><b>test31_getEvent_requiresAuth</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test05_authControllerFileExists()'><b>test05_authControllerFileExists</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test06_contextLoads()'><b>test06_contextLoads</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test02_entitiesFolderExists()'><b>test02_entitiesFolderExists</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test17_loginUser_returnsTokenField()'><b>test17_loginUser_returnsTokenField</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test03_repositoriesFolderExists()'><b>test03_repositoriesFolderExists</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test07_baseUrlIsNotEmpty()'><b>test07_baseUrlIsNotEmpty</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test28_validateToken_trueForValidToken()'><b>test28_validateToken_trueForValidToken</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test45_apiBaseUrlStringIsWellFormed()'><b>test45_apiBaseUrlStringIsWellFormed</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test11_getPublicEvents_returnsJsonArrayOrEmpty()'><b>test11_getPublicEvents_returnsJsonArrayOrEmpty</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test43_getBroadcastsByEvent_statusCode4xxOr5xxWithoutAuth()'><b>test43_getBroadcastsByEvent_statusCode4xxOr5xxWithoutAuth</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test29_validateToken_falseForInvalidToken()'><b>test29_validateToken_falseForInvalidToken</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test30_createEvent_statusOk()'><b>test30_createEvent_statusOk</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test09_getPublicEvents_statusOk()'><b>test09_getPublicEvents_statusOk</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test40_getBroadcastLogs_requiresAuth()'><b>test40_getBroadcastLogs_requiresAuth</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test34_createEvent_missingTitle_badRequestOrError()'><b>test34_createEvent_missingTitle_badRequestOrError</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test33_deleteEvent_requiresAuth()'><b>test33_deleteEvent_requiresAuth</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test18_loginInvalidCredentials_statusUnauthorized()'><b>test18_loginInvalidCredentials_statusUnauthorized</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test36_getPublicEvents_bodyIsString()'><b>test36_getPublicEvents_bodyIsString</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test15_registerUser_returnsMessage()'><b>test15_registerUser_returnsMessage</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test42_runBroadcast_statusCode4xxOr5xxWithoutAuth()'><b>test42_runBroadcast_statusCode4xxOr5xxWithoutAuth</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test12_getPublicEvents_contentTypeJson()'><b>test12_getPublicEvents_contentTypeJson</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test24_registerSubscriber_invalidMissingName_badRequest()'><b>test24_registerSubscriber_invalidMissingName_badRequest</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test27_generateToken_notNullAndNonEmpty()'><b>test27_generateToken_notNullAndNonEmpty</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test19_registerUser_missingName_badRequest()'><b>test19_registerUser_missingName_badRequest</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test22_registerSubscriber_statusOk()'><b>test22_registerSubscriber_statusOk</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test38_runBroadcast_requiresAuth()'><b>test38_runBroadcast_requiresAuth</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test35_getPublicEvents_statusFamily2xx()'><b>test35_getPublicEvents_statusFamily2xx</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test08_swaggerUiPathString()'><b>test08_swaggerUiPathString</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test10_getPublicEvents_bodyNotNull()'><b>test10_getPublicEvents_bodyNotNull</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test39_getBroadcastsByEvent_requiresAuth()'><b>test39_getBroadcastsByEvent_requiresAuth</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test01_controllersFolderExists()'><b>test01_controllersFolderExists</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test04_eventControllerFileExists()'><b>test04_eventControllerFileExists</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test16_loginUser_statusOk()'><b>test16_loginUser_statusOk</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test13_getPublicEvents_noAuthRequired()'><b>test13_getPublicEvents_noAuthRequired</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test41_scheduleBroadcast_statusCode4xxOr5xxWithoutAuth()'><b>test41_scheduleBroadcast_statusCode4xxOr5xxWithoutAuth</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test25_getSubscribersMatch_requiresAuth()'><b>test25_getSubscribersMatch_requiresAuth</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test21_loginUser_responseContentTypeJson()'><b>test21_loginUser_responseContentTypeJson</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test37_scheduleBroadcast_requiresAuth()'><b>test37_scheduleBroadcast_requiresAuth</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+<tr>
+<td title='com.example.demo.ApiIntegrationTests.test32_getEventsByOrganizer_requiresAuth()'><b>test32_getEventsByOrganizer_requiresAuth</b><br>Test class: com.example.demo.ApiIntegrationTests</td>
+<td></td>
+<td>0</td>
+<td>com.example.demo.ApiIntegrationTests@4a194c39</td></tr>
+</table><p>
+</body>
+</html>
